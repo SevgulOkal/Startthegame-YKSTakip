@@ -8,7 +8,10 @@ import ReportsScreen from './screens/ReportsScreen';
 import GoalsScreen from './screens/GoalsScreen';
 import { AuthProvider } from './context/AuthContext';
 import { DataProvider } from './context/DataContext';
+<<<<<<< HEAD
 import PomodoroScreen from "./screens/PomodoroScreen";
+=======
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea
 
 function App() {
   return (
@@ -22,8 +25,11 @@ function App() {
           <Route path="/add-workout" element={<AddWorkoutScreen />} />
           <Route path="/reports" element={<ReportsScreen />} />
           <Route path="/goals" element={<GoalsScreen />} />
+<<<<<<< HEAD
           <Route path="/pomodoro" element={<PomodoroScreen />} />
         
+=======
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea
         </Routes>
       </DataProvider>
     </AuthProvider>

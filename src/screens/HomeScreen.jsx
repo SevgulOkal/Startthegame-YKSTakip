@@ -4,7 +4,10 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useData } from '../context/DataContext';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea
 export default function HomeScreen() {
   const { user, logout } = useAuth();
   const { workouts, goals } = useData();
@@ -45,11 +48,14 @@ export default function HomeScreen() {
         + Çalışma Ekle
       </button>
 
+<<<<<<< HEAD
       <button style={styles.pomodoroButton} onClick={() => navigate('/pomodoro')}>
   ⏱ Pomodoro Başlat
 </button>
 
 
+=======
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea
       <button style={styles.reportButton} onClick={() => navigate('/reports')}>
         📊 Raporları Gör
       </button>
@@ -75,6 +81,7 @@ const styles = {
   addButton: { backgroundColor: '#4f46e5', padding: 18, borderRadius: 10, margin: 20, color: '#fff', fontSize: 18, fontWeight: 'bold', border: 'none', width: '100%' },
   reportButton: { backgroundColor: '#10b981', padding: 18, borderRadius: 10, margin: 20, color: '#fff', fontSize: 18, fontWeight: 'bold', border: 'none', width: '100%' },
   goalButton: { backgroundColor: '#f59e0b', padding: 18, borderRadius: 10, margin: 20, color: '#fff', fontSize: 18, fontWeight: 'bold', border: 'none', width: '100%' },
+<<<<<<< HEAD
 
   pomodoroButton: {
   backgroundColor: "#6366f1",
@@ -88,3 +95,6 @@ const styles = {
   width: "100%",
 },
 };
+=======
+};
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea

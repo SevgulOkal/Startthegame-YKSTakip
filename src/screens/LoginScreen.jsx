@@ -48,8 +48,11 @@ export default function LoginScreen() {
       </button>
     </div>
   );
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dc14faa301dcc7ce479c07735fa72e2ddb6d07ea
 }
 
 const styles = {
