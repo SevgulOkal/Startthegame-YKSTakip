@@ -72,6 +72,17 @@ Bu uygulama bu problemi çözmeyi amaçlar.
 
 ## 📌 Not
 
+## Güncelleme
+
+Bu projeye Pomodoro Timer özelliği eklendi ve ana yapıya başarıyla merge edildi.  
+Bu özellik sayesinde kullanıcılar çalışma ve mola sürelerini daha verimli şekilde yönetebilir.
+
+### Eklenenler
+- Pomodoro timer ekranı.
+- Çalışma ve mola döngüsü.
+- Başlat, duraklat ve sıfırla kontrolleri.
+- 
+
 Bu proje MVP aşamasında geliştirilmekte olup zamanla yeni özellikler eklenecektir.
 
 
